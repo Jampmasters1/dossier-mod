@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "id": "dossiermod",
+  "version": "1.0.0",
+  "name": "Dossier Mod",
+  "description": "Мод для хранения досье на сервере",
+  "authors": ["Jampmasters"],
+  "contact": {},
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "client": ["com.jampmasters.dossier.DossierClient"]
+  },
+  "depends": {
+    "fabricloader": ">=0.15.0",
+    "minecraft": "1.21.1",
+    "fabric": "*"
+  }
+}
